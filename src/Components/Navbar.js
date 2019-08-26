@@ -11,11 +11,11 @@ class Navbar extends Component {
 
     render() {
         return (
-            <div className="Navbar">
+            <div  className="Navbar">
                
-                        <Link  to="/decouvrir"><p>decouvrir </p> </Link>
-                        <Link  to="/messeries"><p>mes series</p>  </Link>
-                        <Link to="/random"><p>random</p></Link>
+                        <Link style={{textDecoration: 'none'}} to="/decouvrir"><p>decouvrir </p> </Link>
+                        <Link style={{textDecoration: 'none'}} to="/messeries"><p>mes series</p>  </Link>
+                        <Link style={{textDecoration: 'none'}} to="/random"><p>random</p></Link>
              
             </div>
         )

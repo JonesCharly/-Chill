@@ -10,6 +10,7 @@
     position: absolute;
     top: 3%;
     left: 65vw;
+    text-decoration: none !important;
 
 }
 
@@ -18,5 +19,11 @@
     margin-right: 50px;
     font-family: 'Raleway', sans-serif;
     color: rgb(59, 59, 59);
+    
+    
+}
+
+Link {
     text-decoration: none;
+
 }

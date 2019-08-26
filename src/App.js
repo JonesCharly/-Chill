@@ -8,17 +8,17 @@ import MySeriesPage from './Pages/MySeriesPage';
 import DiscoverPage from './Pages/DiscoverPage';
 import RandomPage from './Pages/RandomPage';
 import Footer from './Components/Footer';
-import Callpi from './Callpi'
+
 
 function App() {
   return (
     <div className="App">
-      <Link to="/acceuil" ><h1 id="logo">&<br/>CHILL</h1></Link>
-      <Link className="link">mon profil</Link>
+      <Link style={{textDecoration: 'none'}} to="/acceuil" ><h1 id="logo">&<br/>CHILL</h1></Link>
+      <Link style={{textDecoration: 'none'}} className="link">mon profil</Link>
       <div className="header">
         <Navbar/>
       </div>
-      <Callpi/>
+
 
       <Switch>
           <Route exact path="/" component={HomePage} />

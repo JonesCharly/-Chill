@@ -3,34 +3,12 @@ import './MySeriesPage.css'
 
 class MySeriesPage extends Component {
 
-    state = {
-        series: []
-    }
 
-    // constructor(){
-    //     super()
-    //     this.state = {
-    //         series: []
-    //     }
-    // }
-
-    getSeries = () => {
-
-        console.log("ok ici");
-        fetch("https://melroune.github.io/starwars-api/api/all.json")
-            .then(res => res.json())
-            .then(res => console.log(res))
-            .then(res => this.setState({series: res}))
-    }
-
-    componentDidMount() {
-        this.getSeries()
-    }
 
     render() {
 
 
-        const {series} = this.state
+       
 
         return (
             <div className="mySeriesPage">
