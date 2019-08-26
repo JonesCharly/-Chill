@@ -1,0 +1,25 @@
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: rgb(58, 58, 58);
+}
+
+.navbar {
+
+}
+
+
+
+.cardBlk {
+    width: 70%;
+    margin: auto;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgba(190, 190, 190, 0.438);
+}
+
+.card {
+    margin-right: 5%;
+    float: left;
+}

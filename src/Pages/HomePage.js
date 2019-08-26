@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import './HomePage.css';
 
 class HomePage extends Component {
 
     render() {
         return (
-            <div>
+            <div className="homepage">
                 <header>
                     <h2>Welcome Everybody!</h2>
                     <p>&Chill est un outil parfait pour organiser vos watching de séries, 

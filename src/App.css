@@ -1,8 +1,20 @@
 .App {
   text-align: center;
+  width: 100vw;
+}
+
+.link {
+  float: left;
+  color: rgb(59, 59, 59);
+  margin-left: 2%;
+  margin-top: -20px;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(59, 59, 59);
 }
 
 #logo{
-  color: rgb(248, 153, 43);
+  color: rgb(59, 59, 59);
   text-align: left;
+  margin-left: 2%;
 }
+
